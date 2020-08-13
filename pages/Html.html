@@ -1,78 +1,380 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <title>bloognoob</title>
-    <link rel="stylesheet" href="css/main.css">
-    <meta charset="utf-8">
-</head>
-<body>
-    <main>
-        <div>
-            <div> <h1> Теги, для оформления любой страницы HTML</h1> </div>
-            <div>
-              <ol>
-                <li>&lt;!DOCTYPE html &gt;</li>
-                <li>&lt; html &gt; lang="ru" оборачивает в себя весь документ </li>
-                <li>&lt; head &gt; Тег, в котором хранится служебная информация сайта.Может включать следующие теги;</li>
-                    <ul>
-                        <li>&lt; title &gt; bloognoob Заголовок страницы в браузере </li>
-                        <li>&lt; link/ &gt; rel="stylesheet" href="css/main.css Добавляет файл CSS в Html </li>
-                        <li>&lt; meta/ &gt; charset="utf-8" Кодировка текста в Html </li>
-                    </ul>
-              </ol>
-            </div>
-          <div> <h2> Основные теги HTML </h2> </div>
-          <div>
-            <ol>
-              <li>&lt; header &gt; Шапка сайта </li>
-              <li>&lt; main &gt; В данный тег оборачивается весь контент и все остальные теги так же</li>
-              <li>&lt; nav &gt; Навигация </li>
-              <li>&lt; section &gt; Отдельная секция. Как новая глава...</li>
-              <li>&lt; footer &gt; Подвал сайта </li>
-              <li>&lt; aside &gt; Сайт-бар сайта </li>
-              <li>&lt; h1...h6 &gt; Уровни значимости заголовков </li>
-              <li>&lt; p &gt; Абзац. Параграф </li>
-              <li>&lt; ul &gt; Неупорядоченный список </li>
-              <li>&lt; ol &gt; Упорядоченный список</li>
-                <ul>
-                  <li>reversed Атрибут расставляющий элементы списка в реверсивном порядке </li>
-                  <li>type Раскладка написания </li>
-                </ul>
-              <li>&lt; li &gt; Элементы какого-либо списка </li>
-              <li>&lt; pre &gt; ПЕреформатированный текст. Переносит текст вместе с орфографией в html документ</li>
-              <li>&lt; code &gt; ОТмечает фрагмент текста, который распознается компьютером </li>
-              <li>&lt; article &gt; Логический раздел, как секция </li>
-              <li>&lt; div class &gt; Групирование крупных элементов. Работает как контейнер </li>
-              <li>&lt; span class &gt; Выделяет мелкие текстовые элемены </li>
+  <head>
+      <title>bloognoob</title>
+      <link rel="stylesheet" href="css/main.css">
+      <meta charset="utf-8">
+  </head>
 
-            </ol>
-          </div>
-          <div> <h2> Второстепенные теги HTML </h2>
-            <div>
-              <ol>
-                <li>&lt; q &gt; Встроенная цитата </li>
-                <li>&lt; blockquote &gt; Отдельная цитата. Выделяет текст,как отдельный блог </li>
-                <li>&lt; a title &gt; Ссылка на ресурс + атрибут заглушка</li>
-                <li>&lt; cite &gt; Ссыль на источник + ФИО автора и т.д. </li>
-                <li>&lt; em &gt; Определяет текст, на который сделан акцент </li>
-                <li>&lt; i &gt; Определяет текст, который отличается от остального, но не является более важным </li>
-                <li>&lt; strong &gt; Курсив. Указывает на важность текста </li>
-                <li>&lt; b &gt; Курсив. Нужен для привлечения внимания, но без придания особой важности тексту </li>
-                <li>&lt; del &gt; Перечеркивание текста </li>
-                <li>&lt; ins &gt; Подчеркивание текста </li>
-                <li>&lt; dl &gt; Список описаний </li>
-                <li>&lt; dt &gt; Обозначает термин в списке описаний </li>
-                <li>&lt; dd &gt; Определение термина в списке описаний </li>
-                <li>&lt; br &gt; Перенос строки </li>
-                <li>&lt; sub &gt; Нижний индекс </li>
-                <li>&lt; sup &gt; Верхний индекс </li>
-                <li>&lt; time datetime &gt; Дата и время</li>
-                <li>&lt; ins &gt;Подчеркивание текста</li>
-                <li>&lt; img src width height &gt; Картинка + путь к картинке, с атрибутами ,задающими ширину и высоту </li>
-                <li>&lt; figure &gt; Демонстративный материал, которым можно дополнить содержание </li>
-                <li>&lt; figcaption &gt; Разьясняющий коммент к дополнительному материалу </li>
-              </ol>
-            </div>
+  <body>
+    <main>
+      <div>
+        <h1> Теги, для оформления любой страницы HTML</h1>
+      </div>
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt;!DOCTYPE html &gt;</span>
         </div>
+      </div>
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; html &gt;</span> Оборачивает в себя весь документ HTML
+        </div>
+        <div class="tag-card__attributes">
+          <div>lang="ru"</div>
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; head &gt;</span> Тег, в котором хранится служебная информация сайта. Содержит следующие теги:
+        </div>
+        <div class="tag-card__attributes">
+          <div>tittle</div>
+          <div>link</div>
+          <div>meta</div>
+        </div>
+      </div>
+
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; title &gt;</span>  Заголовок страницы в браузере
+        </div>
+      </div>
+
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; link/ &gt;</span>Добавляет файл CSS в Html
+        </div>
+        <div class="tag-card__attributes">
+          <div>rel="stylesheet"</div>
+          <div>href="css/main.css</div>
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; meta/ &gt; </span>Кодировка текста в Html
+        </div>
+        <div class="tag-card__attributes">
+          <div>charset="utf-8"</div>
+        </div>
+      </div>
+
+
+
+      <div>
+       <h2> Основные теги HTML </h2>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; header &gt;</span> Шапка сайта
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; main &gt;</span>В данный тег оборачивается весь контент и все остальные теги
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; nav &gt;</span> Навигация
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; section &gt;</span> Отдельная секция. Как новая глава...
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; footer &gt;</span> Подвал сайта
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; aside &gt;</span> Сайт-бар сайта
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; h1...h6 &gt;</span> Уровни значимости заголовков
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; p &gt;</span> Абзац. Параграф
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; article &gt;</span> Логический раздел, как секция
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; ol &gt;</span> Упорядоченный список
+        </div>
+        <div class="tag-card__attributes">
+          <div>reversed</div>Расставляет элементы списка в реверсивном порядке
+          <div>type</div>Раскладка написания
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; ul &gt;</span> Неупорядоченный список
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; li &gt;</span> Элементы какого-либо списка
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; Pre &gt;</span> ПЕреформатированный текст. Переносит текст вместе с орфографией в html документ
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; code &gt;</span> ОТмечает фрагмент текста, который распознается компьютером
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; ol &gt;</span> Упорядоченный список
+        </div>
+        <div class="tag-card__attributes">
+          <div>reversed</div>Расставляет элементы списка в реверсивном порядке
+          <div>type</div>Раскладка написания
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; div &gt;</span> Групировка крупных элементов. Работает как контейнер
+        </div>
+        <div class="tag-card__attributes">
+          <div>class</div>
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; span &gt;</span> Выделяет мелкие текстовые элемены
+        </div>
+        <div class="tag-card__attributes">
+          <div>class</div>
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; a &gt;</span> Тег ссылка
+        </div>
+        <div class="tag-card__attributes">
+          <div>href</div>
+          <div>title</div>
+        </div>
+      </div>
+
+
+      <div>
+        <h2>Второстепенные теги HTML</h2>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; q &gt;</span> Встроенная цитата
+        </div>
+      </div>
+
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; blockquote &gt;</span> Отдельная цитата. Выделяет текст,как отдельный блог
+        </div>
+      </div>
+
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; cite &gt;</span> Ссыль на источник + ФИО автора и т.д.
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; em &gt;</span> Определяет текст на который сделан акцент
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; i &gt;</span> Определяет текст, который отличается от остального, но не является более важным
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; strong &gt;</span> Курсив. Указывает на важность текста
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; b &gt;</span> Курсив. Нужен для привлечения внимания, но без придания особой важности тексту
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; del &gt;</span> Перечеркивание текста
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; ins &gt;</span> Подчеркивание текста
+        </div>
+      </div>
+
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; dl &gt;</span> Список описаний
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; dt &gt;</span> Обозначает термин в списке описаний
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; dd &gt;</span> Определение термина в списке описаний
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; br &gt;</span> Перенос строки
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; sub &gt;</span> Нижний индекс
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; sup &gt;</span> Верхний индекс
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; ins &gt;</span> Подчеркивание текста
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; time &gt;</span> Дата и время
+        </div>
+        <div class="tag-card__attributes">
+          <div>datetime</div>
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; figure &gt;</span> Демонстративный материал, которым можно дополнить содержание
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; figcaption &gt;</span> Разьясняющий коммент к дополнительному материалу
+        </div>
+      </div>
+
+
+      <div class="tag-card">
+        <div class="tag-card__tag">
+          <span>&lt; img &gt;</span> добавление изображения
+        </div>
+        <div class="tag-card__attributes">
+          <div>src</div> путь к изображеию
+          <div>width</div> ширина
+          <div>height</div> высота
+        </div>
+      </div>
+
     </main>
-</body>
+  </body>
+</html>
