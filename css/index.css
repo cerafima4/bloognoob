@@ -1,0 +1,6 @@
+.page {
+    background-image: url(../images/patern-3.jpg);
+    /*background-position: left bottom; !* Положение фона *!*/
+    background-repeat: repeat;
+    min-height: 100vh;
+}
