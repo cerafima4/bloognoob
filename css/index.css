@@ -1,6 +1,48 @@
 .page {
     background-image: url(../images/patern-3.jpg);
-    /*background-position: left bottom; !* Положение фона *!*/
     background-repeat: repeat;
     min-height: 100vh;
 }
+
+.navigation-container {
+    padding: 250px 0 0 80px;
+    text-decoration: none;
+}
+
+.navigation-container a {
+    font-weight: bolder;
+    font-size: 50px;
+    text-decoration: none;
+    color: #483836;
+}
+
+.navigation-container ul {
+    list-style-type: none;
+}
+
+.navigation-container li:before {
+    content: '';
+    height: 25px;
+    width: 25px;
+    background-color: #a52a2a;
+    display: block;
+    position: absolute;
+    left: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.navigation-container li {
+    position: relative;
+    margin-top: 20px;
+}
+
+nav{
+    text-decoration: none;
+}
+
+
+
+
+
