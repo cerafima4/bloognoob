@@ -4,6 +4,16 @@
     min-height: 100vh;
 }
 
+.tittle-accent {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    right: -330px;
+    transform: translate(0, -50%) rotate(90deg);
+    line-height: 1;
+    color: brown;
+}
+
 .navigation-container {
     padding: 250px 0 0 80px;
     text-decoration: none;

@@ -1,12 +1,3 @@
-.tittle {
-    font-size: 50px;
-    position: absolute;
-    top: 50%;
-    right: -330px;
-    transform: translate(0, -50%) rotate(90deg);
-    line-height: 1;
-    color: brown;
-}
 
 body {
     margin: 0;
@@ -18,4 +9,33 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
     font-family: 'Rubik Mono One', sans-serif;
     font-weight: 600;
+}
+
+.tittle {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 600;
+}
+
+.tittle_size-m,
+.tittle_size-m h1,
+.tittle_size-m h2,
+.tittle_size-m h3 {
+    font-size: 40px;
+}
+
+.tittle_size-sm,
+.tittle_size-sm h1,
+.tittle_size-sm h2,
+.tittle_size-sm h3 {
+    font-size: 32px;
+}
+
+.color_brown {
+    color: brown;
+
+}
+
+.color_darkgreen {
+    color: darkgreen;
+
 }

@@ -17,3 +17,20 @@
     color: darkgreen;
 
 }
+
+.tag-card {
+    font-size: 30px;
+}
+
+.tag-card span {
+    font-weight: 900;
+}
+
+.tag-card {
+    max-width: 960px;
+}
+
+.tag-card__red-teg {
+    display: inline-flex;
+    min-width: 250px;
+}
