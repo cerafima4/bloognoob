@@ -1,0 +1,19 @@
+.page {
+    background-image: url(../images/patern-2.jpg);
+    background-repeat: repeat;
+    min-height: 100vh;
+}
+
+.tag-card {
+
+}
+
+.tag-card__tag span {
+    color: brown;
+
+}
+
+.tag-card__attributes span {
+    color: darkgreen;
+
+}
