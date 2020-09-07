@@ -4,9 +4,6 @@
     min-height: 100vh;
 }
 
-.tag-card {
-
-}
 
 .tag-card__tag span {
     color: brown;
@@ -20,15 +17,14 @@
 
 .tag-card {
     font-size: 30px;
+    max-width: 960px;
 }
 
 .tag-card span {
     font-weight: 900;
 }
 
-.tag-card {
-    max-width: 960px;
-}
+
 
 .tag-card__red-teg {
     display: inline-flex;
