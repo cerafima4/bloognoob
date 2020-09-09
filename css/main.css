@@ -39,3 +39,20 @@ h1,h2,h3,h4,h5,h6 {
     color: darkgreen;
 
 }
+
+.information-card {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+
+.information-card__term {
+    color: brown;
+    font-weight: 900;
+    min-width: 15%;
+}
+
+
+
