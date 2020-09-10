@@ -3,29 +3,3 @@
     background-repeat: repeat;
     min-height: 100vh;
 }
-
-.container {
-    margin: 0 70px 0 70px;
-    padding: 20px 0 20px 0;
-    position: relative;
-}
-
-.information-card {
-    font-size: 30px;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
-}
-
-.information-card__term {
-    color: brown;
-    font-weight: 900;
-    min-width: 15%;
-}
-
-.tittle_size-m {
-    margin-bottom: 40px;
-}
-
-
-

@@ -11,34 +11,26 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
 }
 
-.tittle {
+.title {
     font-family: 'Rubik Mono One', sans-serif;
     font-weight: 600;
 }
 
-.tittle_size-m,
-.tittle_size-m h1,
-.tittle_size-m h2,
-.tittle_size-m h3 {
+.title_size-m,
+.title_size-m h1,
+.title_size-m h2,
+.title_size-m h3 {
     font-size: 40px;
 }
 
-.tittle_size-sm,
-.tittle_size-sm h1,
-.tittle_size-sm h2,
-.tittle_size-sm h3 {
+.title_size-sm,
+.title_size-sm h1,
+.title_size-sm h2,
+.title_size-sm h3 {
     font-size: 32px;
 }
 
-.color_brown {
-    color: brown;
 
-}
-
-.color_darkgreen {
-    color: darkgreen;
-
-}
 
 .information-card {
     font-size: 30px;
@@ -47,12 +39,18 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 30px;
 }
 
-
 .information-card__term {
     color: brown;
     font-weight: 900;
     min-width: 15%;
 }
 
+
+
+.container {
+    margin: 0 70px 0 70px;
+    padding: 20px 0 20px 0;
+    position: relative;
+}
 
 

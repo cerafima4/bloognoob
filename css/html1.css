@@ -3,36 +3,3 @@
     background-repeat: repeat;
     min-height: 100vh;
 }
-
-
-.tag-card__tag span {
-    color: brown;
-
-}
-
-.tag-card__attributes span {
-    color: darkgreen;
-
-}
-
-.tag-card {
-    font-size: 30px;
-    max-width: 960px;
-}
-
-.tag-card span {
-    font-weight: 900;
-}
-
-
-
-.tag-card__red-teg {
-    display: inline-flex;
-    min-width: 250px;
-}
-
-
-.container {
-    margin: 0 70px 0 70px;
-    padding: 20px 0 20px 0;
-    position: relative;
