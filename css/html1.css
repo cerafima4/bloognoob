@@ -5,17 +5,6 @@
 }
 
 
-
-.information-card_alt {
-    margin-left: 15%;
-    font-style: italic;
-}
-
-.information-card_alt .information-card__term {
-    color: darkgreen;
-}
-
-
 .page-html .information-card {
     margin-bottom: 10px;
 }
